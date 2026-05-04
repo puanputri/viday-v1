@@ -21,7 +21,7 @@ type FormData = z.infer<typeof schema>
 const socials = [
   {
     label: 'GitHub',
-    href: 'https://github.com/',
+    href: 'https://github.com/puanputri',
     icon: Github,
     note: 'See the code',
   },

@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { ArrowDown, Download, ExternalLink } from 'lucide-react'
+import { ArrowDown, Download, ExternalLink, Github } from 'lucide-react'
 import MagneticButton from '@/components/ui/MagneticButton'
 import GradientText from '@/components/ui/GradientText'
 
@@ -86,6 +86,17 @@ export default function Hero() {
             >
               <Download size={15} />
               Download CV
+            </a>
+          </MagneticButton>
+          <MagneticButton>
+            <a
+              href="https://github.com/puanputri"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-xl border border-white/[0.12] bg-white/[0.04] px-6 py-3 text-sm font-medium text-white/75 transition-all duration-200 hover:border-white/[0.25] hover:bg-white/[0.08] hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-white/30"
+            >
+              <Github size={15} />
+              GitHub
             </a>
           </MagneticButton>
         </motion.div>

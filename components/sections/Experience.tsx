@@ -7,24 +7,24 @@ import TimelineNode from '@/components/ui/TimelineNode'
 const experiences = [
   {
     role: 'Backend Developer',
-    company: 'GenAILabs',
-    period: '2023 – Present',
-    bullets: [
-      'Shipped SerpAI — 17+ AI-powered SEO workflow templates with runtime-switchable Claude/Gemini backends, Google APIs integration, and Stripe tiered billing',
-      'Built GlobalVin — VIN decoding & vehicle history REST API, containerized with Docker multi-stage Alpine (<80 MB production image)',
-      'Designed pluggable SERP scraper pool supporting 8+ providers with automatic failover for SLA continuity',
-      'Implemented webhook-driven Stripe usage metering, decoupled from core business logic',
-    ],
-  },
-  {
-    role: 'Backend Developer',
     company: 'Fajri Inc',
-    period: '2023 – 2024',
+    period: '2023 – Present',
     bullets: [
       'Designed and delivered RESTful Java/Quarkus services for enterprise clients across multiple production deployments',
       'Improved data processing efficiency by 25% through query optimization and service-layer refactoring',
       'Reduced API response times by 15% and error rates by 30% via structured exception handling and caching',
       'Maintained 95% service uptime across client-facing deployments',
+    ],
+  },
+  {
+    role: 'Backend Developer',
+    company: 'GenAILabs',
+    period: 'Dec 2025 – March 2026',
+    bullets: [
+      'Shipped SerpAI — 17+ AI-powered SEO workflow templates with runtime-switchable Claude/Gemini backends, Google APIs integration, and Stripe tiered billing',
+      'Built GlobalVin — VIN decoding & vehicle history REST API, containerized with Docker multi-stage Alpine (<80 MB production image)',
+      'Designed pluggable SERP scraper pool supporting 8+ providers with automatic failover for SLA continuity',
+      'Implemented webhook-driven Stripe usage metering, decoupled from core business logic',
     ],
   },
   {
