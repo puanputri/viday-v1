@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-Content *)",
+      "PowerShell(npm install *)",
+      "PowerShell(Invoke-WebRequest -Uri \"http://localhost:3000\" -UseBasicParsing -TimeoutSec 15 | Select-Object StatusCode)",
+      "PowerShell(Out-Null *)",
+      "PowerShell(robocopy \"C:\\\\Users\\\\LOQ 15\\\\Desktop\\\\Puan Putri\\\\portofolio\\\\puan-putri-v1\" \"C:\\\\Users\\\\LOQ 15\\\\Desktop\\\\Puan Putri\\\\portofolio\\\\puan-putri-portofolio-v1\" /E /COPYALL /XD node_modules .next /NFL /NDL /NJH /NJS; echo \"Copy exit code: $LASTEXITCODE\")"
+    ]
+  }
+}
