@@ -58,7 +58,7 @@ export default function Contact() {
         body: JSON.stringify(data),
       })
       if (!res.ok) throw new Error()
-      toast.success("Message sent — I'll get back to you shortly.")
+      toast.success("Message sent! I'll get back to you shortly.")
       reset()
     } catch {
       toast.error('Something went wrong. Email me directly at puanputrisaqinahf@gmail.com')
@@ -77,7 +77,7 @@ export default function Contact() {
           transition={{ duration: 0.6 }}
           className="mb-12"
         >
-          <span className="font-mono text-xs tracking-widest text-violet-400 uppercase">05 — Contact</span>
+          <span className="font-mono text-xs tracking-widest text-violet-400 uppercase">05 · Contact</span>
           <h2 className="mt-2 text-3xl font-bold text-white sm:text-4xl">
             Let's <GradientText>work together</GradientText>
           </h2>

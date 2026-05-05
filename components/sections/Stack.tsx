@@ -52,7 +52,7 @@ export default function Stack() {
           transition={{ duration: 0.6 }}
           className="mb-12"
         >
-          <span className="font-mono text-xs tracking-widest text-violet-400 uppercase">02 — Stack</span>
+          <span className="font-mono text-xs tracking-widest text-violet-400 uppercase">02 · Stack</span>
           <h2 className="mt-2 text-3xl font-bold text-white sm:text-4xl">
             Tools I <GradientText>ship with</GradientText>
           </h2>

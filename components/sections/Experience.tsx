@@ -21,8 +21,8 @@ const experiences = [
     company: 'GenAILabs',
     period: 'Dec 2025 – March 2026',
     bullets: [
-      'Shipped SerpAI — 17+ AI-powered SEO workflow templates with runtime-switchable Claude/Gemini backends, Google APIs integration, and Stripe tiered billing',
-      'Built GlobalVin — VIN decoding & vehicle history REST API, containerized with Docker multi-stage Alpine (<80 MB production image)',
+      'Shipped SerpAI: 17+ AI-powered SEO workflow templates with runtime-switchable Claude/Gemini backends, Google APIs integration, and Stripe tiered billing',
+      'Built GlobalVin: a VIN decoding and vehicle history REST API, containerized with Docker multi-stage Alpine (<80 MB production image)',
       'Designed pluggable SERP scraper pool supporting 8+ providers with automatic failover for SLA continuity',
       'Implemented webhook-driven Stripe usage metering, decoupled from core business logic',
     ],
@@ -49,7 +49,7 @@ export default function Experience() {
           transition={{ duration: 0.6 }}
           className="mb-12"
         >
-          <span className="font-mono text-xs tracking-widest text-violet-400 uppercase">04 — Experience</span>
+          <span className="font-mono text-xs tracking-widest text-violet-400 uppercase">04 · Experience</span>
           <h2 className="mt-2 text-3xl font-bold text-white sm:text-4xl">
             Where I've <GradientText>built things</GradientText>
           </h2>

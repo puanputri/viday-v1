@@ -56,7 +56,7 @@ export default function Hero() {
           transition={{ delay: 0.55, duration: 0.5 }}
           className="mx-auto mb-3 max-w-2xl text-lg leading-relaxed text-white/50 sm:text-xl"
         >
-          Building cloud-native systems from Jakarta —{' '}
+          Building cloud-native systems from Jakarta.{' '}
           <span className="text-white/80">Java/Quarkus microservices</span> and{' '}
           <span className="text-white/80">AI-integrated APIs</span> shipped at{' '}
           <span className="text-white/65">GenAILabs</span> and{' '}
@@ -69,7 +69,7 @@ export default function Hero() {
           transition={{ delay: 0.62, duration: 0.5 }}
           className="mx-auto mb-8 max-w-xl font-mono text-sm italic text-white/30"
         >
-          "I build the systems Tony Stark would deploy — reliable, fast, and a little dramatic."
+          "I build the systems Tony Stark would deploy: reliable, fast, and a little dramatic."
         </motion.p>
 
         <motion.div

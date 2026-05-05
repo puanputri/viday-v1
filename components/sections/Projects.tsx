@@ -28,7 +28,7 @@ export default function Projects() {
           transition={{ duration: 0.6 }}
           className="mb-12"
         >
-          <span className="font-mono text-xs tracking-widest text-violet-400 uppercase">03 — Projects</span>
+          <span className="font-mono text-xs tracking-widest text-violet-400 uppercase">03 · Projects</span>
           <h2 className="mt-2 text-3xl font-bold text-white sm:text-4xl">
             <GradientText>Shipped</GradientText> in production
           </h2>

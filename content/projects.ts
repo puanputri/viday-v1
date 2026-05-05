@@ -32,7 +32,7 @@ export const projects: Project[] = [
       { label: 'LLM backends', value: '2 (live)' },
     ],
     problem:
-      'SEO teams were stitching together 5+ separate tools to run a single research workflow. Each tool had its own data model, billing, and API key management — a compounding operational burden that killed productivity.',
+      'SEO teams were stitching together 5+ separate tools to run a single research workflow. Each tool had its own data model, billing, and API key management, creating a compounding operational burden that killed productivity.',
     decisions: [
       {
         title: 'Runtime-switchable LLM router',
@@ -47,12 +47,12 @@ export const projects: Project[] = [
       {
         title: 'Webhook-driven Stripe billing',
         reasoning:
-          'Decoupled usage metering from the core workflow engine — billing logic stays in Stripe webhooks, not buried in business logic, keeping the service layer testable.',
+          'Decoupled usage metering from the core workflow engine. Billing logic lives in Stripe webhooks, not buried in business logic, keeping the service layer testable.',
       },
     ],
     results: [
       '17+ production SEO workflow templates shipped',
-      'Runtime model switching between Claude (Anthropic) and Gemini — zero downtime switchover',
+      'Runtime model switching between Claude (Anthropic) and Gemini with zero downtime',
       '8+ SERP provider integrations with automatic failover',
       'Stripe tiered billing with webhook-driven usage metering',
       'Google Search Console & Google Ads API integration in a single platform',
@@ -65,7 +65,7 @@ export const projects: Project[] = [
     company: 'GenAILabs',
     url: 'https://globalvin.co',
     status: 'shipped',
-    tagline: 'Vehicle data platform — VIN decoding & history reports at scale',
+    tagline: 'Vehicle data platform: VIN decoding and history reports at scale',
     description:
       'REST API platform delivering VIN decoding, vehicle history reports, and automotive data services. Containerized with Docker multi-stage Alpine builds for a minimal, production-grade deployment footprint.',
     tech: ['Python', 'Docker', 'PostgreSQL', 'REST API', 'Alpine Linux'],
@@ -75,7 +75,7 @@ export const projects: Project[] = [
       { label: 'Data providers', value: '3' },
     ],
     problem:
-      'Automotive platforms needed a reliable, unified API to decode VINs and retrieve vehicle history across multiple data providers — without vendor lock-in or per-provider integration overhead.',
+      'Automotive platforms needed a reliable, unified API to decode VINs and retrieve vehicle history across multiple data providers, without vendor lock-in or per-provider integration overhead.',
     decisions: [
       {
         title: 'Multi-stage Docker build on Alpine',
@@ -101,7 +101,7 @@ export const projects: Project[] = [
     title: 'Enterprise Backend Services',
     company: 'Fajri Inc',
     status: 'shipped',
-    tagline: 'Quarkus microservices — 25% faster data processing for enterprise clients',
+    tagline: 'Quarkus microservices, 25% faster data processing for enterprise clients',
     description:
       'Designed and delivered RESTful API services for enterprise clients using Java and Quarkus. Measurable improvements across data processing throughput, API latency, uptime, and error rates across multiple production deployments.',
     tech: ['Java', 'Quarkus', 'Spring Boot', 'PostgreSQL', 'Docker', 'REST API'],
@@ -117,7 +117,7 @@ export const projects: Project[] = [
       {
         title: 'Quarkus over Spring Boot',
         reasoning:
-          'Faster startup times and lower memory footprint in containerized environments — critical for elastic scaling under variable load and reducing cold-start penalty in Docker/K8s.',
+          'Faster startup times and lower memory footprint in containerized environments, which is critical for elastic scaling under variable load and reducing cold-start penalty in Docker/K8s.',
       },
       {
         title: 'Layered architecture (resource → service → repository)',

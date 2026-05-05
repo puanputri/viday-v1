@@ -16,7 +16,7 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Puan Putri Saqinah Firdaus — AI-Augmented Backend Engineer',
+  title: 'Puan Putri Saqinah Firdaus | AI-Augmented Backend Engineer',
   description:
     'Backend engineer specializing in Java/Quarkus microservices and AI-integrated systems. Based in Jakarta.',
   keywords: ['backend engineer', 'Java', 'Quarkus', 'microservices', 'AI', 'Jakarta', 'cloud-native'],
@@ -25,13 +25,13 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    title: 'Puan Putri Saqinah Firdaus — AI-Augmented Backend Engineer',
+    title: 'Puan Putri Saqinah Firdaus | AI-Augmented Backend Engineer',
     description: 'Backend engineer specializing in Java/Quarkus microservices and AI-integrated systems.',
     siteName: 'Puan Putri Portfolio',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Puan Putri Saqinah Firdaus — AI-Augmented Backend Engineer',
+    title: 'Puan Putri Saqinah Firdaus | AI-Augmented Backend Engineer',
     description: 'Backend engineer specializing in Java/Quarkus microservices and AI-integrated systems.',
   },
   robots: { index: true, follow: true },

@@ -21,7 +21,7 @@ const coreBadges = [
 
 const funFacts = [
   { emoji: '🌸', label: 'Favorite color', value: 'Pink. Always pink.' },
-  { emoji: '🦾', label: 'Biggest inspiration', value: 'Tony Stark — engineering with style' },
+  { emoji: '🦾', label: 'Biggest inspiration', value: 'Tony Stark. Engineering with style.' },
   { emoji: '🎮', label: 'Off the clock', value: 'Gaming, music, traveling, films' },
   { emoji: '🎬', label: 'Current watchlist', value: 'Horror, Marvel, Black Mirror' },
   { emoji: '🎓', label: 'Latest school', value: 'SMA Negeri 1 Pasir Penyu' },
@@ -43,7 +43,7 @@ export default function About() {
           viewport={{ once: true, margin: '-80px' }}
           className="mb-12"
         >
-          <span className="font-mono text-xs tracking-widest text-violet-400 uppercase">01 — About</span>
+          <span className="font-mono text-xs tracking-widest text-violet-400 uppercase">01 · About</span>
           <h2 className="mt-2 text-3xl font-bold text-white sm:text-4xl">
             <GradientText>Systems thinker.</GradientText> <span className="text-white">API builder.</span>
           </h2>
@@ -60,13 +60,13 @@ export default function About() {
               <GlassCard className="p-6">
                 <p className="mb-4 leading-relaxed text-white/65">
                   Backend engineer with production experience across enterprise services and
-                  AI-powered SaaS — from schema design and business logic to Docker containers and
+                  AI-powered SaaS, covering everything from schema design and business logic to Docker containers and
                   cloud deployments. I own services end-to-end and I like it that way.
                 </p>
                 <p className="leading-relaxed text-white/65">
                   Deeply interested in AI-augmented development: LLM APIs, retrieval pipelines,
                   and backend infrastructure that makes AI products reliable at scale. Tony Stark
-                  didn't outsource the arc reactor — I don't outsource the hard parts either.
+                  didn't outsource the arc reactor. I don't outsource the hard parts either.
                 </p>
 
                 <div className="mt-6 flex flex-col gap-2.5">
@@ -98,7 +98,7 @@ export default function About() {
             >
               <GlassCard className="p-6">
                 <p className="mb-4 font-mono text-[10px] tracking-widest text-white/35 uppercase">
-                  Core Stack — hover for experience
+                  Core Stack (hover for years)
                 </p>
                 <div className="flex flex-wrap gap-2">
                   {coreBadges.map((badge) => (
@@ -135,7 +135,7 @@ export default function About() {
                 <p className="font-mono text-xs text-fuchsia-300/70 italic">
                   "The most dangerous person in the room is the one who has both the vision and the tools to build it."
                 </p>
-                <p className="mt-1.5 font-mono text-[10px] text-white/25">— Black Mirror energy, Tony Stark execution</p>
+                <p className="mt-1.5 font-mono text-[10px] text-white/25">Black Mirror energy, Tony Stark execution</p>
               </div>
             </GlassCard>
           </motion.div>
