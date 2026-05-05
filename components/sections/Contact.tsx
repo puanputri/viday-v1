@@ -27,7 +27,7 @@ const socials = [
   },
   {
     label: 'LinkedIn',
-    href: 'https://linkedin.com/in/',
+    href: 'https://www.linkedin.com/in/puan-putri-saqinah-b368bb2b1/',
     icon: Linkedin,
     note: 'Connect professionally',
   },
