@@ -52,10 +52,10 @@ export default function Contact() {
   async function onSubmit(data: FormData) {
     setSubmitting(true)
     try {
-      const res = await fetch('/api/contact', {
+      const res = await fetch('https://formsubmit.co/ajax/puanputrisaqinahf@gmail.com', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(data),
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify({ ...data, _subject: `Portfolio contact from ${data.name}` }),
       })
       if (!res.ok) throw new Error()
       toast.success("Message sent! I'll get back to you shortly.")
