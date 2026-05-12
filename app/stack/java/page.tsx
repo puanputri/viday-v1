@@ -37,7 +37,6 @@ export default function JavaPage() {
           {/* Write your Java definition content here */}
           <GlassCard className="p-6">
             <p className="leading-relaxed text-white/65">
-              {/* Your content goes here */}
               Java is the best of the best.
             </p>
           </GlassCard>
