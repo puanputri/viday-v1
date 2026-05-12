@@ -1,6 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import Link from 'next/link'
 import GlassCard from '@/components/ui/GlassCard'
 import GradientText from '@/components/ui/GradientText'
 
@@ -72,14 +73,24 @@ export default function Stack() {
                   {group.label}
                 </p>
                 <div className="flex flex-wrap gap-1.5">
-                  {group.items.map((tech) => (
-                    <span
-                      key={tech}
-                      className="rounded-md border border-white/[0.06] bg-white/[0.04] px-2 py-1 font-mono text-xs text-white/55 transition-colors duration-200 group-hover:border-white/[0.11]"
-                    >
-                      {tech}
-                    </span>
-                  ))}
+                  {group.items.map((tech) =>
+                    tech === 'Java' ? (
+                      <Link
+                        key={tech}
+                        href="/stack/java"
+                        className="rounded-md border border-violet-400/30 bg-violet-400/[0.06] px-2 py-1 font-mono text-xs text-violet-300/80 transition-colors duration-200 hover:border-violet-400/60 hover:text-violet-200"
+                      >
+                        {tech}
+                      </Link>
+                    ) : (
+                      <span
+                        key={tech}
+                        className="rounded-md border border-white/[0.06] bg-white/[0.04] px-2 py-1 font-mono text-xs text-white/55 transition-colors duration-200 group-hover:border-white/[0.11]"
+                      >
+                        {tech}
+                      </span>
+                    )
+                  )}
                 </div>
               </GlassCard>
             </motion.div>
