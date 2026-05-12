@@ -6,6 +6,7 @@ import AnimatedBg from '@/components/shared/AnimatedBg'
 import Navbar from '@/components/shared/Navbar'
 import Footer from '@/components/shared/Footer'
 import NoiseOverlay from '@/components/shared/NoiseOverlay'
+import javaData from '@/content/stack/java.json'
 
 export const metadata = {
   title: 'Java | Puan Putri',
@@ -34,10 +35,9 @@ export default function JavaPage() {
             </h1>
           </div>
 
-          {/* Write your Java definition content here */}
           <GlassCard className="p-6">
-            <p className="leading-relaxed text-white/65">
-              {/* Your content goes here */}
+            <p className="whitespace-pre-line leading-relaxed text-white/65">
+              {javaData.content}
             </p>
           </GlassCard>
         </div>
