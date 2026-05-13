@@ -32,7 +32,7 @@ export default function Navbar() {
       }`}
     >
       <nav className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6 lg:px-8">
-        <a href="#hero" className="font-mono text-sm text-white/60 transition-colors hover:text-white">
+        <a href="/" className="font-mono text-sm text-white/60 transition-colors hover:text-white">
           <span className="text-violet-400">puan</span>
           <span className="text-white/30">.</span>
           <span className="text-fuchsia-400">dev</span>
